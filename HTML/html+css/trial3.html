@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=width-device, initial-scale=1.0">
+        <title>DOCUMENT-TRIAL3</title>
+        <link rel="stylesheet" href="style3.css">
+    </head>
+    <body>
+        <header>
+            <h1>CSS UNITS</h1>
+        </header>
+
+        <main>
+            <article>
+                <h2>FONT SIZE</h2>
+                <p id="fontSize">
+                    here we r setting the font size...if we do so then 
+                    even user cannot change it via browser settings.
+                    <br>
+                    thus it is generally not suggested to set a font size
+                </p>
+
+                <h2>SETTING PROPERTIES FOR HEADER AND HEADINGS</h2>
+                <p id="headingProp">
+                    here we have given width as 50% for the header and then later on we gave 
+                    width as 50% for h1 thus finally h1 takes up 25% of screen width
+                    and thereby thats why the border around the heading CSS UNITS extends only
+                    uptto 25% of screen and does not take up full width
+                </p>
+                <h2>RELATIVE FONT SIZE</h2>
+                <p id="relFontSize">
+                    rem is the unit for relativee font size
+                    <br>
+                    1rem-default size
+                    <br>
+                    lesser than 1 rem-lower than default size
+                    <br>
+                    greater than 1 rem-greater than default size
+                    <br>
+                    <br>
+                    rem-relative to the root which is defined by the browser
+                    <br>
+                    em-relative to the main defined in the html file
+                    <br>
+                    thus if we change the unit in the p tag (rem--em) then it will 
+                    modify the size relative to the one defined for main
+
+                    <h2>USE OF "ch" </h2>
+                    <p id="useOfCH">
+                        ch--relative unit for width of every character
+                        <br>
+                        width=40ch implies that we need at max 40 characters before the line wraps up
+                        <br>
+                        it helps in the estimation of columns when needed
+                    </p>
+
+                    <h2>CSS RESET</h2>
+                    <p id="cssreset">
+                        basically we r resetting the default settings of the page
+                        <br>
+                        it can be applied to the whole page even...in order to keep all the different topics separate we r 
+                        restricting the effect of each statement to separate paragraphs using id                        
+                    </p>
+
+                    <h2></h2>
+
+                </p>
+            </article>
+        </main>
+    </body>

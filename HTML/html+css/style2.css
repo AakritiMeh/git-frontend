@@ -1,0 +1,17 @@
+body{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color: rgb(255,0,255);   
+    color: rgb(108, 19, 11);  
+}
+p{
+    color:rgba(0, 0, 0, 1);
+}
+#hexadec{
+    color:#333;
+}
+#hslclr{
+    color: hsl(0, 27%, 35%);
+}

@@ -1,0 +1,47 @@
+
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid red;
+}
+/* the border defined in * is literally applied everywhere...it is not an example of inheritance*/
+
+html{
+    font-size: 20px;
+}
+
+
+main{
+    /* what u write here is applied only to elements in main not in header and footer*/
+    font-family:monospace; 
+
+}
+body{
+    font-size: 20px;    
+    border: 3px solid white;
+}
+h1,h2{
+    color:aqua;
+}
+
+p{
+    color:blanchedalmond;
+}
+p{
+    color:burlywood;
+}
+/*since blurywood was given last so it was executed rather than blanchedalmond */
+
+.one{
+    color:purple;
+}
+#third{
+    font-style: italic;
+}
+
+p span{
+    text-transform: uppercase;
+    background-color: goldenrod;
+}
+
+
