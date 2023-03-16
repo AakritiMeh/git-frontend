@@ -1,0 +1,23 @@
+html{
+    font-size:22px
+}
+body{
+    background-color: black;
+    color: whitesmoke; 
+}
+a{
+    color: aliceblue;
+}
+a:visited{
+    color: azure;
+}
+a:hover,a:active{
+    color: chartreuse;
+}
+
+table,tr,th,td,caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New','Courier',monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

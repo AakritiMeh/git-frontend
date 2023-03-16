@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="aakriti">
+        <meta name="description" content="its gonna contain all what i lear bout html">
+        <title>My Fist Web Page</title>
+        <link rel="icon" href="html5.jpeg" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body>
+        <h1>LEARN HTML WITH US</h1>
+        
+        <header>
+            <nav aria-label="primary-navigation">
+                
+                <ul>
+                    <li>
+                        <a href="#htmlBasics">LEARN HTML </a>
+                    </li>
+                </ul>
+                <p>here we have created a navigation to the section </p>
+            </nav>
+        </header>
+
+        <main>
+
+            <p>learning html for the first time
+                since we cannot actually give newline so we actually use br as given below 
+                <br>&nbsp; the number of nbsp u used u get more extra spaces there u go
+                <br>this gives a line break
+                <img src="images/webDev.jpeg" alt="WEBDEV Logo" title="learning webDev" width="474" height="283">
+            </p>
+
+
+            <hr>
+
+            <h2>used hr for differentiating</h2>
+            <p>first para</p>
+            <p>since i used  new paragraph tag so it comes as a new para with one line left</p>
+            <h3>this is subtopic under h2 </h3>
+            <p>h2 in itself is subtopic under h1</p>
+            <p>if we use two h2 it means both is a subtopic under h1</p>
+            <em>since i used it in between em so it is by default italisised</em>
+            <strong>by using strong it has been bold and little bigger</strong>
+            
+            
+            <hr>
+                    
+
+            <p>here we are trying to use stuff like u hover ur mouse over text and it displays info bout it in small box
+                <br><abbr title="full form of it">FF</abbr>
+
+                <br>here am gonna use the "address" tag
+                <address>
+                    232 adarsh angar
+                    <br>jk colony
+                    <br>kanpur-208010
+                </address>
+                <figure>
+                    <img src="images/knp.jpeg" alt="Kanpur"  title="my place" width="479" height="512" loading="lazy">
+                    <figcaption>kanpur central</figcaption>
+            
+                </figure>
+            
+            
+            <p>&lt;h1&gt;KANPUR&lt;h1&gt;</p>
+            <p>the above line shows an example of how we can print html code directly onto the website</p>
+            
+            <p>lists in the file</p>
+            <ol>
+                <li>....ol stsnds for orderded list
+                <li>....new list  </li>
+                <li>....new list 2</li>
+                <li>....new list 3 </li>     
+            </ol>
+
+
+            <hr>
+
+        <article id="htmlBasics">
+
+            <h2>new para </h2>
+            <ul>
+            <li>
+                <p>
+                    putting the paragraph tags under the list tags
+                </p>
+                <p>
+                    creating multiple paragraphs under the list tag
+                </p>
+            </li>
+            </ul>
+
+
+            <h2>topic</h2>
+
+            <dl>
+            <dt>description title</dt>
+            <dd>description details</dd>
+            <dd>description details</dd>
+            
+            </dl>
+            <p>the description details is indented under the description title </p>
+            
+        </article>
+
+        <h2>adding web links</h2>
+        <p>resource from mozilla developer network <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN </a></p>
+        <p>here we have given an exact address ie absolute</p>
+        <p>we had given a relative add to the main.css and html5 png filei.e it id on the same server as the</p>
+        
+
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <p>i would really like to hear from you </p>
+            <form action="http://httpbin.org/get" method="get">
+                <label for="firstname">firstname:</label>
+                <input type="text" name="firstname" id="firstname" placeholder="am" autocomplete="on" required autofocus>
+                
+            </form>
+        </article>
+        
+    </main>
+        
+        <aside>
+            <details>
+                <summary>
+                    what all did u <mark>learn bout html</mark> here
+                </summary>
+                <p>
+                    i learnt bout header footer pargraph semantic tags addition og links images and much more
+                </p>
+            </details>
+        </aside>
+
+        <section>
+            <h2>do not use</h2>
+            <dl>
+                <dt>type</dt>
+                <dd> do not use these tags: div,span </dd>
+            </dl>
+        </section>
+
+        <br>
+        <table>
+            <caption>
+                My daily schedule
+            </caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">morning</th>
+                    <td >
+                        <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                    </td>
+                    <td>write code</td>
+                </tr>
+                <tr>
+                    <th scope="row">break</th>
+                    <td>
+                        <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                    </td>
+                    <td>   eat lunch</td>
+                </tr>
+                <tr>
+                    <th scope="row">afternoon</th>
+                    <td>
+                        <time datetime="12:00">11pm</time>-<time datetime="05:00">5pm</time>
+                    </td>
+                    <td>study for other courses</td>
+                </tr>
+                <tr>
+                    <th scope="row">evening</th>
+                    <td rowspan="2">All Other Times</td>
+                    <td >Free Time</td>
+                </tr>
+                <tr>
+                    <th scope="row">night</th>
+                    <td>Sleep</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">thats what i do all day,jus eat sleep code</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        
+        
+        &lt;&lt;&lt;&copy;  <a href="basics.html">aakritiMeh</a>  &gt;&gt;&gt;
+        <p> lt used gives the left arrow symbol and gt used gives the right arrow symbol
+        <br>the number of times u use gt and lt those number of times it prints the symbols
+        </p>
+
+        <p>
+            <a href="#">BACK TO TOP</a>
+        </p>
+
+    </body>
+</html>
